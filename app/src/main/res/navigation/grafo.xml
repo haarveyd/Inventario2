@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grafo"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="moviles2023.inventario2.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_menuPrincipal"
+            app:destination="@id/menuPrincipal" />
+        <action
+            android:id="@+id/action_login_to_menuPrincipalV2"
+            app:destination="@id/menuPrincipalV2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuPrincipal"
+        android:name="moviles2023.inventario2.MenuPrincipal"
+        android:label="fragment_menu_principal"
+        tools:layout="@layout/fragment_menu_principal" />
+    <fragment
+        android:id="@+id/menuPrincipalV2"
+        android:name="moviles2023.inventario2.MenuPrincipalV2"
+        android:label="fragment_menu_principal_v2"
+        tools:layout="@layout/fragment_menu_principal_v2" />
+</navigation>
