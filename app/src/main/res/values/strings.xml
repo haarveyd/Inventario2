@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Inventario2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textoUsuario">Enter your ID</string>
+    <string name="textoPassword">Enter your password</string>
+    <string name="textoRegistrar">Register Product</string>
+    <string name="textoRetirar">Login</string>
+    <string name="textoAgregar">Agregar\n</string>
+    <string name="RegistrarBoton" />
+    <string name="RegistrarBoton1">Register\n</string>
+    <string name="idUsuario">ID del Usuario</string>
+    <string name="botonCantidad">Cantidad disponbile\n</string>
+    <string name="CantidadVendidaBoton">Cantidad vendida</string>
+    <string name="CategoriaBoton">Categoria</string>
+    <string name="textoProducto">Enter product ID</string>
+    <string name="nombre">Enter product name</string>
+    <string name="name">Enter product name\n</string>
+    <string name="quantity">Enter quantity available\n</string>
+    <string name="quantitys">Enter quantity to wuthdraw</string>
+    <string name="textoLogin">Enter Inventary</string>
+    <string name="textoID">0000</string>
+    <string name="textoQuantity">0000</string>
+    <string name="textoQuantityS">0000</string>
+    <string name="textoIcon">icon\n</string>
+    <string name="codigoP">Codigo Producto:\n</string>
+    <string name="CantidadD">Cantidad Disponible:\n</string>
+    <string name="Cantidadv">Cantidad vendida:\n</string>
 </resources>
